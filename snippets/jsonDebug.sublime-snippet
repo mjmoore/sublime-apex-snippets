@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+System.debug(LoggingLevel.Debug, '*** ' + JSON.serialize(${1:object}));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sdebug</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.apex</scope>
+	<description>System debug with log level Error</description>
+</snippet>
