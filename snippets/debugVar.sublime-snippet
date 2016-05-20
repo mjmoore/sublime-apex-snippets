@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-System.debug(LoggingLevel.Debug, '*** ${1:object}' + ${1:object});
+System.debug(LoggingLevel.Debug, '*** ${1:object}: ' + ${1:object});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>debugvar</tabTrigger>
